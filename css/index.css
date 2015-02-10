@@ -54,14 +54,14 @@ body {
 	color: #000000;
 }
 
-#menuebar ul li:hover {
-	font-size: 30px;
-	cursor: pointer;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	border-bottom: 3px solid #81F781;
-	border-top: 3px solid #81F781;
+@media screen and (min-width: 981px) {
+	#menuebar ul li:hover {
+		font-size: 30px;
+		color: white;
+		text-decoration: underline;
+	}
 }
+
 
 @media screen and (max-width: 980px) {
 	#menuebar ul li {
