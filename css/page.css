@@ -1,0 +1,148 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+/****************
+* Navigation
+*****************/
+
+html {
+	background-color: #FEFEFE;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	z-index: 1000;
+	top: 0;
+	position: fixed;
+	height: 10%;
+	min-height: 80px;
+	width: 100%;
+	background: #8ED83E;
+	//background-image: linear-gradient(to bottom, #8ED83E 0%, #FFFFFF 100%);
+	border-bottom: 2px solid black;
+}
+
+nav ul {
+	margin-left: 5%;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline;
+}
+
+nav ul li a {
+	background-image: linear-gradient(to bottom, #8ED83E 0%, #F9FFCF 100%);
+	float: left;
+	padding: 20px;
+	font-size: 1.5em;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-right: 20px;
+	border-bottom: 1px solid black;
+}
+
+nav ul li a:active {
+	color: black;
+}
+
+nav ul li a:visited {
+	color: black;
+}
+
+nav ul li a:hover {
+
+}
+
+#logoMenuePoint {
+	margin-right: 5%;
+}
+
+article {
+	margin-top: 150px;
+	width: auto;
+	height: 100%;
+}
+
+#picMenueBar {
+	float: left;
+	width: 12%;
+	min-width: 150px;
+	height: 650px;
+	min-height: 200px;
+	margin-left: 14%; /* 60% + 12% = 72%; 100-72=28; 28/2=14% */ 
+	padding: 0 4px;
+}
+
+#picMenueBar ul li {
+	list-style: none;
+	margin-right: 10px;
+}
+
+#picMenueBar ul li img {
+	width: 100%;
+	height: 150px;
+	margin-bottom: 10px;
+	opacity: 0.5;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+#leftArrow {
+	position: absolute;
+	top: 45%;
+	font-size: 6em;
+}
+
+#rightArrow {
+	position: absolute;
+	top: 45%;
+	font-size: 6em;
+}
+
+#switcherImage {
+	margin-left: 5px;
+	width: 60%;
+	min-width: 800px;
+	height: 650px;
+	min-height: 500px;
+	/*	box-shadow: 0px 1px 23px 18px rgba(142,216,62,0.41); */
+	border: 1px solid black;
+}
+
+#descriptorText {
+	margin-top: 1%;
+	padding-top: 2.5%;
+	width: 100%;
+	height: 3em;
+	text-align: center;
+	border-top: 1px solid black;
+	font-size: 1.4em;
+}
+
+header h1 {
+	font-size: 2.5em;
+	text-align: center;
+	font-family: serif;
+	text-decoration: underline;
+}
+
+article p{
+	margin: 0px 10%;
+	margin-top: 2%;
+	width: 80%;
+	font-size: 1.3em;
+}
+
+ul#downloadMenue {
+	font-size: 1em;
+	margin-top: 20px;
+   margin-left: 10%;
+	list-style: none;
+}

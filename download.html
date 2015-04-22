@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<title>UMP</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {	
+				$(".menueItem").mouseenter(function () {
+					$(this).animate({paddingTop: "+=50px"}, 150);
+				});
+				$(".menueItem").mouseleave(function () {
+					$(this).animate({paddingTop: "-=50px"}, 150);
+				});				
+			});
+		</script>
+	</head>
+	<body>
+		<nav>
+			<ul>	
+				<li>
+					<a href="index.php" class="menueItem" id="logoMenuePoint"><img src="img/logo.png" alt="UMP-Logo" /></a>
+				</li>
+				<li>
+					<a href="#" class="menueItem" style="background-image: linear-gradient(to bottom, #FF5440 0%, #F9FFCF 100%);">Download</a>
+				</li>
+				<li>
+					<a href="#" class="menueItem">Onlineversion</a>
+				</li>
+			</ul>		
+		</nav>	
+		<section>
+			<article>
+				<header><h1>Download</h1></header>
+				<p>
+					Hallo, das ist ein Download-test:
+					<ul id="downloadMenue">
+						<li>
+							<strong>Windows (x86):</strong> Click here
+						</li>
+						<li>
+							<strong>Linux (x64):</strong> Click net above, click here.
+						</li>
+					</ul>	
+				</p>
+				
+			</article>
+		</section>
+	
+		<link rel="stylesheet" type="text/css" href="css/page.css">
+	</body>
+</html>
