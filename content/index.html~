@@ -1,0 +1,17 @@
+				<div id="picMenueBar">
+					<ul>
+						<li>
+							<img src="img/lessons.png" class="menueImg" id="firstPic" style="opacity: 1;" />
+						</li>
+						<li>
+							<img src="img/settings.png" class="menueImg" id="secondPic" />
+						</li>
+						<li>
+							<img src="img/exams.png" class="menueImg" id="thirdPic" />
+						</li>
+					</ul>				
+				</div>				
+				<img src="img/lessons.png" id="switcherImage" />
+				<div id="descriptorText">
+					<span id="description">Unter „Fächer” können neue Aufgaben zu den bereits eingetragenen Fächern hinzugefügt werden.</span>
+				</div>

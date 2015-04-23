@@ -1,0 +1,12 @@
+				<header><h1>Download</h1></header>
+				<p>
+					Hallo, das ist ein Download-test:
+					<ul id="downloadMenue">
+						<li>
+							<strong>Windows (x86):</strong> Click here
+						</li>
+						<li>
+							<strong>Linux (x64):</strong> Click net above, click here.
+						</li>
+					</ul>	
+				</p>
