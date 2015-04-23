@@ -9,7 +9,7 @@
 *****************/
 
 html {
-	background-color: #FEFEFE;
+	background-color: #F1F1F1;
 }
 
 a {
@@ -23,9 +23,9 @@ nav {
 	height: 10%;
 	min-height: 80px;
 	width: 100%;
-	background: #8ED83E;
-	//background-image: linear-gradient(to bottom, #8ED83E 0%, #FFFFFF 100%);
-	border-bottom: 2px solid black;
+	background: #9F9F9F;
+	//background-image: linear-gradient(to bottom, #E18C8F 99%, #FFFFFF 1%);
+	border-bottom: 3px solid lightgreen;
 }
 
 nav ul {
@@ -38,7 +38,7 @@ nav ul li {
 }
 
 nav ul li a {
-	background-image: linear-gradient(to bottom, #8ED83E 0%, #F9FFCF 100%);
+	background-image: linear-gradient(to top, #AFAFAF 0%, #F9FFCF 100%);
 	float: left;
 	padding: 20px;
 	font-size: 1.5em;
@@ -46,6 +46,7 @@ nav ul li a {
 	border-bottom-right-radius: 10px;
 	margin-right: 20px;
 	border-bottom: 1px solid black;
+	color: black;
 }
 
 nav ul li a:active {
@@ -57,7 +58,7 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
-
+	text-decoration: underline;
 }
 
 #logoMenuePoint {
@@ -74,8 +75,7 @@ article {
 	float: left;
 	width: 12%;
 	min-width: 150px;
-	height: 650px;
-	min-height: 200px;
+	height: auto;
 	margin-left: 14%; /* 60% + 12% = 72%; 100-72=28; 28/2=14% */ 
 	padding: 0 4px;
 }
@@ -111,7 +111,6 @@ article {
 	width: 60%;
 	min-width: 800px;
 	height: 650px;
-	min-height: 500px;
 	/*	box-shadow: 0px 1px 23px 18px rgba(142,216,62,0.41); */
 	border: 1px solid black;
 }
@@ -120,9 +119,8 @@ article {
 	margin-top: 1%;
 	padding-top: 2.5%;
 	width: 100%;
-	height: 3em;
+	height: auto;
 	text-align: center;
-	border-top: 1px solid black;
 	font-size: 1.4em;
 }
 
@@ -145,4 +143,19 @@ ul#downloadMenue {
 	margin-top: 20px;
    margin-left: 10%;
 	list-style: none;
+}
+
+@media (max-width: 1400px) {
+	#switcherImage {	
+		height: 400px;
+		width: 550px;
+	}
+	
+	#picMenueBar ul li img {
+		height: 100px;	
+	}
+	
+	#descriptorText {
+		padding-top: 10px;	
+	}
 }
